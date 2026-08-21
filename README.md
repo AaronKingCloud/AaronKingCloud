@@ -20,4 +20,6 @@ Cloud and Infrastructure enthusiast pursuing hands-on experience with AWS, Azure
 
 ## Connect
 
-LinkedIn: <link>
+LinkedIn: www.linkedin.com/in/aaronpking88
+
+
