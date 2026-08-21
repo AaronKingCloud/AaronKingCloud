@@ -1,16 +1,23 @@
-## Hi there 👋
+# Hi, I'm Aaron 👋
 
-<!--
-**AaronKingCloud/AaronKingCloud** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Cloud and Infrastructure enthusiast pursuing hands-on experience with AWS, Azure, Python, and DevOps technologies.
 
-Here are some ideas to get you started:
+## Skills
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- AWS
+- Azure
+- Python
+- PowerShell
+- Linux
+- Git
+- Docker
+
+## Current Projects
+
+- AWS S3 → Lambda → DynamoDB Pipeline
+- Cloud Automation Scripts
+- Infrastructure as Code
+
+## Connect
+
+LinkedIn: <link>
