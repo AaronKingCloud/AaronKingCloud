@@ -1,121 +1,87 @@
 # Hi, I'm Aaron King 👋
 
-Aspiring Cloud & Infrastructure Engineer with hands-on experience designing and automating cloud solutions using AWS, Terraform, Python, Linux, and DevOps tools.
+**Cloud & DevOps engineer in training**, finishing the Cloud Architecture & Administration program at Seneca Polytechnic (December 2026).
 
-Currently pursuing advanced cloud, automation, and infrastructure skills through academic projects, personal labs, and cloud certifications.
+I build cloud infrastructure on **AWS and Azure**, automate it with **Terraform, Pulumi and GitHub Actions**, and run workloads on **Docker and Kubernetes**. Every project here has a README you can follow to rebuild it, a habit from my years as a technical writer.
 
----
-
-## ☁️ What I'm Interested In
-
-- Cloud Infrastructure
-- Infrastructure as Code (Terraform)
-- Cloud Automation
-- AWS & Azure
-- DevOps & CI/CD
-- Linux Administration
-- Serverless Computing
-
----
-
-## 🛠️ Technical Skills
-
-### Cloud Platforms
-- AWS
-- Azure
-
-### Infrastructure & DevOps
-- Terraform
-- Git
-- GitHub Actions
-- Docker
-
-### Operating Systems
-- Linux
-- Windows Server
-
-### Programming & Scripting
-- Python
-- PowerShell
-- Bash
+📍 Toronto, ON · 🔎 Open to junior Cloud, DevOps and Cloud Support roles
 
 ---
 
 ## 🚀 Featured Projects
 
-### AWS Multi-Environment Infrastructure with Terraform
-Designed and deployed a highly available AWS environment using Infrastructure as Code.
+### ☁️ [Azure Multi-Region Resilient Web App](https://github.com/AaronKingCloud/azure-multi-region-web-app)
+Highly available website across **Canada East and Central India**. Azure Traffic Manager routes users to the nearest healthy region, and Standard Load Balancers spread traffic across IIS servers.
+- Performance routing verified from a test VM in South Africa
+- **Regional failover tested** by shutting down an entire region
 
-**Key Features**
-- Dev, Staging, and Production environments
-- Application Load Balancer
-- Auto Scaling Groups
-- CloudWatch Monitoring
-- Amazon S3 Integration
-- GitHub Actions
-- TFLint & Trivy Security Scanning
-- Branch Protection & Pull Request Validation
+`Azure` `Traffic Manager` `Load Balancer` `VNets` `Windows Server`
 
-🔗 Repository: https://github.com/AaronKingCloud/terraform-aws-multi-environment-infrastructure
+### 📊 [Kubernetes Monitoring with Pulumi](https://github.com/AaronKingCloud/pulumi-guestbook-monitoring)
+Added full monitoring to a multi-tier Kubernetes app, deployed entirely as code.
+- Prometheus and Grafana deployed with **Pulumi (TypeScript) and Helm**
+- Exporter sidecars and **ServiceMonitors** scrape every frontend and Redis pod
+- **Grafana dashboard as code**: request rates, Redis throughput, per-pod CPU and memory
+
+`Pulumi` `Kubernetes` `Prometheus` `Grafana` `Helm`
+
+### 🏗️ [AWS Multi-Environment Infrastructure with Terraform](https://github.com/AaronKingCloud/terraform-aws-multi-environment-infrastructure)
+Highly available AWS environment for **Dev, Staging and Production**, deployed through CI/CD.
+- Application Load Balancer, Auto Scaling Groups, CloudWatch monitoring, S3
+- GitHub Actions pipeline with **TFLint and Trivy** security scanning
+- Branch protection and pull request validation
+
+`AWS` `Terraform` `GitHub Actions` `CI/CD`
+
+### 🛠️ [CloudOps Hub](https://github.com/AaronKingCloud/CloudOpsHub) · *Capstone, team of 3, in progress*
+Cloud-native infrastructure monitoring and operations platform for homelabs and small businesses: monitoring, alerting and asset management in one dashboard.
+
+`React` `TypeScript` `FastAPI` `Docker` `Terraform`
+
+### More projects
+| Project | What it shows |
+|---|---|
+| [Kubernetes Self-Healing & Probe Tuning](https://github.com/AaronKingCloud/k8s-self-healing-probe-tuning) | Startup, readiness and liveness probes, CrashLoopBackOff diagnosis, runbook |
+| [Serverless Data Pipeline](https://github.com/AaronKingCloud/aws-s3-lambda-dynamodb-pipeline) | Event-driven S3 → Lambda → DynamoDB on AWS |
+| [Containerized Two-Tier Web App](https://github.com/AaronKingCloud/docker-two-tier-webapp) | Multi-container app with Docker |
 
 ---
 
-### AWS S3 → Lambda → DynamoDB Pipeline
+## 🛠️ Tech Stack
 
-Designed a serverless event-driven architecture using:
-- Amazon S3
-- AWS Lambda
-- Amazon DynamoDB
-
----
-
-### Python Final Project
-
-Completed a comprehensive Python application project that received a perfect grade.
-
-Focus Areas:
-- Python Development
-- Problem Solving
-- Application Design
-- Data Processing
-
----
-
-## 📚 Currently Learning
-
-- Azure Administration (AZ-104)
-- Terraform Best Practices
-- Cloud Architecture
-- CI/CD Automation
-- Kubernetes Fundamentals
+| Area | Tools |
+|---|---|
+| **Cloud** | AWS, Azure |
+| **Infrastructure as Code** | Terraform, Pulumi |
+| **Containers** | Docker, Kubernetes, Helm, kind |
+| **CI/CD** | GitHub Actions, Git |
+| **Monitoring** | Prometheus, Grafana, CloudWatch |
+| **OS & Scripting** | Linux, Windows Server, Bash, PowerShell, Python |
 
 ---
 
 ## 📜 Certifications
 
-## 📜 Certifications
+- **AWS Certified AI Practitioner**
 
 <!--
-Coming Soon
-
-- Microsoft Azure Fundamentals (AZ-900)
-- AWS Certified Cloud Practitioner
+Next up:
+- PMI Project Management Ready
+- Microsoft Azure Administrator (AZ-104)
 - Terraform Associate
 -->
 
 ---
 
-## 📫 Connect With Me
+## 📚 Currently Learning
 
-LinkedIn:  
-https://www.linkedin.com/in/aaronpking88
+- Kubernetes and container orchestration (CLO835)
+- Azure Administration (AZ-104)
+- Observability: Prometheus, Grafana, alerting
 
-GitHub:  
-https://github.com/AaronKingCloud
+---
 
-<!--
-TODO:
-- Add AZ-900 once exam results arrive
-- Add Terraform Associate certification
-- Add project screenshots
--->
+## 📫 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-aaronpking88-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aaronpking88)
+[![Email](https://img.shields.io/badge/Email-aaronpking88%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:aaronpking88@gmail.com)
