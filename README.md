@@ -63,10 +63,10 @@ Cloud-native infrastructure monitoring and operations platform for homelabs and 
 ## 📜 Certifications
 
 - **AWS Certified AI Practitioner**
-
+- **PMI Project Management Ready**
+- 
 <!--
 Next up:
-- PMI Project Management Ready
 - Microsoft Azure Administrator (AZ-104)
 - Terraform Associate
 -->
